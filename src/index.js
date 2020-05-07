@@ -5,10 +5,13 @@ import {
   View,
   Text,
 } from 'react-native';
+import "./config/ReactotronConfig"
 
 export default class App extends Component{
+
   render(){
     return(
+
       <View style={styles.container}>
         <Text style={styles.welcome}>Hellow Word</Text>
       </View>
